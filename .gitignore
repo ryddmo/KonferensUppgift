@@ -1,0 +1,14 @@
+# Beständig webbläsarprofil för Playwright MCP — innehåller SSO-sessionscookies, ska aldrig committas
+.mcp-browser-profile/
+
+# Sparad inloggad session (cookies/local storage) för autentiserade testfall — likaså känslig
+auth-state.json
+
+# Snapshots/skärmdumpar/loggar som Playwright MCP sparar under sessionen
+.playwright-mcp/
+
+# Node/Playwright Test-genererat
+node_modules/
+test-results/
+playwright-report/
+blob-report/
