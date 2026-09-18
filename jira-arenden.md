@@ -14,9 +14,11 @@ kan kopieras rakt av.
 **Summary:** Sidfotens länkar (Cookies, Integritet, Om webbplatsen, Tillgänglighet) är inte klickbara
 
 **Description:**
+
 > **Miljö:** app-riksund-fe-underhallsplanering-test.azurewebsites.net/dashboard
 >
 > **Steg för att återskapa:**
+>
 > 1. Logga in och gå till dashboardens grundvy.
 > 2. Scrolla till sidfoten längst ner.
 > 3. Försök klicka på "Cookies", "Integritet", "Om webbplatsen" eller "Tillgänglighet".
@@ -40,9 +42,11 @@ kan kopieras rakt av.
 **Summary:** Användare loggas tyst in igen efter "Logga ut" — SSO-sessionen verkar leva kvar
 
 **Description:**
+
 > **Miljö:** app-riksund-fe-underhallsplanering-test.azurewebsites.net/dashboard
 >
 > **Steg för att återskapa:**
+>
 > 1. Logga in och gå till dashboardens grundvy.
 > 2. Klicka på "Logga ut".
 > 3. Navigera till `/dashboard` igen (t.ex. skriv in URL:en igen).
@@ -73,9 +77,11 @@ kan kopieras rakt av.
 **Summary:** Grundvyn visar "Inga planer skapade ännu." samtidigt som kartan visar 70 planer i systemet
 
 **Description:**
+
 > **Miljö:** app-riksund-fe-underhallsplanering-test.azurewebsites.net/dashboard
 >
 > **Steg för att återskapa:**
+>
 > 1. Logga in och gå till dashboardens grundvy — notera att "Senaste
 >    underhållsplaner" visar "Inga planer skapade ännu."
 > 2. Klicka på kartknappen — notera att rubriken anger "52 av 70 planer har
